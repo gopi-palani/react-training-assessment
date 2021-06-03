@@ -16,7 +16,7 @@ const PerformAction = (props) => {
         editedUserEnablility.push(item);
     });
     localStorage.setItem('users', JSON.stringify(editedUserEnablility));
-    setEnablility(false);
+    setEnablility(false)
   };
 
   const EditItem = e => {
